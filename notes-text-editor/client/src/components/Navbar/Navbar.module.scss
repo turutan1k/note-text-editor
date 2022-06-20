@@ -1,0 +1,23 @@
+.navbarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff8753;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 20px;
+    flex: 0 0 200px;
+    box-shadow: 0px 0px 8px hsla(18, 100%, 66%, 1);
+    .navbarHeaderText {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .navbarFilter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #ff9e75;
+        align-items: center;
+    }
+}

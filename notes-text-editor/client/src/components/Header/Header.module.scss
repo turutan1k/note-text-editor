@@ -1,0 +1,19 @@
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 30px;
+    width: 100%;
+    background-color: #ff8753;
+    box-shadow: 0px 4px 4px hsla(18, 100%, 66%, 0.25);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    flex: 0 1 60px;
+    .headerLink {
+        color: #000;
+        cursor: pointer;
+    }
+}

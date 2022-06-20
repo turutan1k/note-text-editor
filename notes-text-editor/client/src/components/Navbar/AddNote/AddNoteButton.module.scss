@@ -1,0 +1,36 @@
+.addNoteBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+    background-color: #ff9e75;
+    color: #000;
+    .addNoteText {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+    &:hover {
+        background-color: #ffbda0;
+        box-shadow: 0px 4px 4px hsla(18, 100%, 66%, 0.5);
+        transition: 0.3s linear;
+    }
+}
+
+.addNoteBtnActive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+    color: #000;
+    .addNoteText {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+    background-color: #ff8753;
+    box-shadow: inset 0px 0px 100px 5px rgba(124, 92, 78, 0.1);
+    transition: 0.3s linear;
+}

@@ -1,0 +1,47 @@
+.inputWrapper {
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+        margin-right: 10px;
+        line-height: 50px;
+    }
+    .filterInput {
+        width: calc(100% - 20px);
+        height: 30px;
+        background-color: #ff8753;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 20px 0px 0px 20px;
+        &::placeholder {
+            color: #000;
+            opacity: 1;
+        }
+        &:-ms-input-placeholder {
+            color: #000;
+        }
+        &::-ms-input-placeholder {
+            color: #000;
+        }
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+    .addFilterTag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 60px;
+        background-color: rgb(255, 111, 49);
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+//!
+.tagWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}

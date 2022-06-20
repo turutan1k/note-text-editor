@@ -1,0 +1,33 @@
+.notFoundWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8753;
+    flex: 1 1 990px;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+    .notFoundText {
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+}
+
+.notFoundLink {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    &:hover {
+        color: #fff;
+        transition: 0.3s linear;
+    }
+}
+
+.notFoundLinkActive {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffbda0;
+}

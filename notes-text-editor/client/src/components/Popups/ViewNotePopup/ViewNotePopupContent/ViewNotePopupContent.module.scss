@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    textarea {
+        width: 100%;
+        outline: none;
+        resize: none;
+        font-size: 16px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 15px;
+
+        &:is(:focus, :valid) {
+            padding: 15px;
+            border-color: #ffb799;
+        }
+        &::-webkit-scrollbar {
+            width: 0px;
+        }
+    }
+    .noteName {
+        height: 59px;
+        line-height: 30px;
+        cursor: text;
+    }
+    .noteDescription {
+        height: 100px;
+        cursor: text;
+        margin-bottom: 15px;
+    }
+    .noteTagWrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        .tagsTitle {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .noteTag {
+            display: flex;
+            flex-wrap: wrap;
+            .tag {
+                font-size: 12px;
+                margin: 5px;
+                margin-left: 0px;
+            }
+        }
+    }
+    .hr {
+        text-align: center;
+        border: 1px solid #ffbda0;
+    }
+}

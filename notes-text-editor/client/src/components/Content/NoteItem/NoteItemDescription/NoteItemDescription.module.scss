@@ -1,0 +1,17 @@
+.noteItemDescription {
+    overflow: hidden;
+    font-size: 14px;
+    // text-align: left;
+    padding: 10px;
+    flex: 1 1 100%;
+    & span {
+        display: -webkit-box;
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    & hr {
+        border-radius: 1px solid #fff;
+        width: 100%;
+    }
+}
